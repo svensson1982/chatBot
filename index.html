@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chatBot</title>
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/flex.css">
+    <link rel="stylesheet" href="./css/elements.css">
+</head>
+<body>
+<div class="container">
+    <div class="row thumbnail">
+        <div class="chat-container col-12 h-80 btlr-25 btrr-25" id="chatWall"></div>
+        <div class="col-3">
+            <input type="input" class="input-control input-color bblr-25" id='nickName' placeholder="Name" value="guest0001" />
+        </div>
+        <div class="col">
+            <input type="text" class="input-control" id="chatMsg" onkeyup="inputEmpty(this)" placeholder="Type here to chat" required>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-color bbrr-25" id="sendBtn" disabled>Send</button>
+        </div>
+    </div>
+</div>
+
+<script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+<script type="text/javascript" src="js/extension.js"></script>
+<script type="module" src="js/chat.js"></script>
+
+</body>
+</html>

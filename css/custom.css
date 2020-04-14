@@ -1,0 +1,26 @@
+
+/******** custom.css ********/
+
+body {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+#chatWall {
+    overflow-y: scroll;
+    padding: .375rem .75rem;
+    -ms-overflow-style: none;
+    border: 1px solid #ced4da;
+}
+
+#chatWall::-webkit-scrollbar {
+    display: none;
+}

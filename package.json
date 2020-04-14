@@ -1,0 +1,15 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "./js/chat.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Balázs Barsi",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io-client": "^2.2.0"
+  }
+}
